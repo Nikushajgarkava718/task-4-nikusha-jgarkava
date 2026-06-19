@@ -48,10 +48,16 @@ p{
 
 .section {
 		width: 920px;
-		height: 509px;
+		min-height: 509px;
 		border: 2px solid white;
     	border-radius: 23px;
 		margin: 130px auto;
 		background: white;
 }
+
+
+.Q5 {
+	margin-bottom: 83px;
+}
+
 
