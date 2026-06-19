@@ -1,7 +1,9 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
+
 
 details {
 	margin: 16px auto;
@@ -16,13 +18,10 @@ details {
 summary {
 
 	font-weight: 600;
+	color: #1E1F36;
 
 }
 
-p{
-	color: #787887;
-
-}
 
 h1  {
 
@@ -30,14 +29,30 @@ h1  {
 	padding-top: 70px;
 	padding-bottom: 30px;
 	padding-inline: 425px;
+	color: #1E1F36;
+
+
+p{
+	color: #787887;
 
 }
 
+
+
+}
+
+
+.background {
+
+	background: linear-gradient(#B068E9, #6463E7);
+}
 
 .section {
 		width: 920px;
 		height: 509px;
-		border: 2px solid darkblue;
+		border: 2px solid white;
+    	border-radius: 23px;
 		margin: 130px auto;
 		background: white;
 }
+
